@@ -123,32 +123,59 @@ dyrone_c/fast:
 	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/build
 .PHONY : dyrone_c/fast
 
-chapter_1/main.o: chapter_1/main.c.o
+chapter_1/for.o: chapter_1/for.c.o
 
-.PHONY : chapter_1/main.o
+.PHONY : chapter_1/for.o
 
 # target to build an object file
-chapter_1/main.c.o:
-	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/main.c.o
-.PHONY : chapter_1/main.c.o
+chapter_1/for.c.o:
+	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/for.c.o
+.PHONY : chapter_1/for.c.o
 
-chapter_1/main.i: chapter_1/main.c.i
+chapter_1/for.i: chapter_1/for.c.i
 
-.PHONY : chapter_1/main.i
+.PHONY : chapter_1/for.i
 
 # target to preprocess a source file
-chapter_1/main.c.i:
-	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/main.c.i
-.PHONY : chapter_1/main.c.i
+chapter_1/for.c.i:
+	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/for.c.i
+.PHONY : chapter_1/for.c.i
 
-chapter_1/main.s: chapter_1/main.c.s
+chapter_1/for.s: chapter_1/for.c.s
 
-.PHONY : chapter_1/main.s
+.PHONY : chapter_1/for.s
 
 # target to generate assembly for a file
-chapter_1/main.c.s:
-	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/main.c.s
-.PHONY : chapter_1/main.c.s
+chapter_1/for.c.s:
+	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/for.c.s
+.PHONY : chapter_1/for.c.s
+
+chapter_1/helloworld.o: chapter_1/helloworld.c.o
+
+.PHONY : chapter_1/helloworld.o
+
+# target to build an object file
+chapter_1/helloworld.c.o:
+	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.o
+.PHONY : chapter_1/helloworld.c.o
+
+chapter_1/helloworld.i: chapter_1/helloworld.c.i
+
+.PHONY : chapter_1/helloworld.i
+
+# target to preprocess a source file
+chapter_1/helloworld.c.i:
+	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.i
+.PHONY : chapter_1/helloworld.c.i
+
+chapter_1/helloworld.s: chapter_1/helloworld.c.s
+
+.PHONY : chapter_1/helloworld.s
+
+# target to generate assembly for a file
+chapter_1/helloworld.c.s:
+	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.s
+.PHONY : chapter_1/helloworld.c.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... dyrone_c"
-	@echo "... chapter_1/main.o"
-	@echo "... chapter_1/main.i"
-	@echo "... chapter_1/main.s"
+	@echo "... chapter_1/for.o"
+	@echo "... chapter_1/for.i"
+	@echo "... chapter_1/for.s"
+	@echo "... chapter_1/helloworld.o"
+	@echo "... chapter_1/helloworld.i"
+	@echo "... chapter_1/helloworld.s"
 .PHONY : help
 
 

@@ -57,30 +57,45 @@ include CMakeFiles/dyrone_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dyrone_c.dir/flags.make
 
-CMakeFiles/dyrone_c.dir/chapter_1/main.c.o: CMakeFiles/dyrone_c.dir/flags.make
-CMakeFiles/dyrone_c.dir/chapter_1/main.c.o: ../chapter_1/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tenglong.tl/Works/Projects/dyrone_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dyrone_c.dir/chapter_1/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dyrone_c.dir/chapter_1/main.c.o   -c /Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/main.c
+CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.o: CMakeFiles/dyrone_c.dir/flags.make
+CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.o: ../chapter_1/helloworld.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tenglong.tl/Works/Projects/dyrone_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.o   -c /Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/helloworld.c
 
-CMakeFiles/dyrone_c.dir/chapter_1/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dyrone_c.dir/chapter_1/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/main.c > CMakeFiles/dyrone_c.dir/chapter_1/main.c.i
+CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/helloworld.c > CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.i
 
-CMakeFiles/dyrone_c.dir/chapter_1/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dyrone_c.dir/chapter_1/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/main.c -o CMakeFiles/dyrone_c.dir/chapter_1/main.c.s
+CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/helloworld.c -o CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.s
+
+CMakeFiles/dyrone_c.dir/chapter_1/for.c.o: CMakeFiles/dyrone_c.dir/flags.make
+CMakeFiles/dyrone_c.dir/chapter_1/for.c.o: ../chapter_1/for.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tenglong.tl/Works/Projects/dyrone_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/dyrone_c.dir/chapter_1/for.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dyrone_c.dir/chapter_1/for.c.o   -c /Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/for.c
+
+CMakeFiles/dyrone_c.dir/chapter_1/for.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dyrone_c.dir/chapter_1/for.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/for.c > CMakeFiles/dyrone_c.dir/chapter_1/for.c.i
+
+CMakeFiles/dyrone_c.dir/chapter_1/for.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dyrone_c.dir/chapter_1/for.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/for.c -o CMakeFiles/dyrone_c.dir/chapter_1/for.c.s
 
 # Object files for target dyrone_c
 dyrone_c_OBJECTS = \
-"CMakeFiles/dyrone_c.dir/chapter_1/main.c.o"
+"CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.o" \
+"CMakeFiles/dyrone_c.dir/chapter_1/for.c.o"
 
 # External object files for target dyrone_c
 dyrone_c_EXTERNAL_OBJECTS =
 
-dyrone_c: CMakeFiles/dyrone_c.dir/chapter_1/main.c.o
+dyrone_c: CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.o
+dyrone_c: CMakeFiles/dyrone_c.dir/chapter_1/for.c.o
 dyrone_c: CMakeFiles/dyrone_c.dir/build.make
 dyrone_c: CMakeFiles/dyrone_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tenglong.tl/Works/Projects/dyrone_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable dyrone_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tenglong.tl/Works/Projects/dyrone_c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable dyrone_c"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dyrone_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

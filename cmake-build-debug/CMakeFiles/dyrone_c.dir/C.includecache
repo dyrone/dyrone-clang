@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/main.c
+/Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/for.c
+for.h
+/Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/for.h
 stdio.h
--
+/Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/stdio.h
+
+/Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/for.h
 

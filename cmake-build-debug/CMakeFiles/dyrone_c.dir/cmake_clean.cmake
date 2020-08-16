@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dyrone_c.dir/chapter_1/main.c.o"
+  "CMakeFiles/dyrone_c.dir/chapter_1/for.c.o"
+  "CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.o"
   "dyrone_c"
   "dyrone_c.pdb"
 )
