@@ -177,6 +177,33 @@ chapter_1/helloworld.c.s:
 	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.s
 .PHONY : chapter_1/helloworld.c.s
 
+chapter_1/static.o: chapter_1/static.c.o
+
+.PHONY : chapter_1/static.o
+
+# target to build an object file
+chapter_1/static.c.o:
+	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/static.c.o
+.PHONY : chapter_1/static.c.o
+
+chapter_1/static.i: chapter_1/static.c.i
+
+.PHONY : chapter_1/static.i
+
+# target to preprocess a source file
+chapter_1/static.c.i:
+	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/static.c.i
+.PHONY : chapter_1/static.c.i
+
+chapter_1/static.s: chapter_1/static.c.s
+
+.PHONY : chapter_1/static.s
+
+# target to generate assembly for a file
+chapter_1/static.c.s:
+	$(MAKE) -f CMakeFiles/dyrone_c.dir/build.make CMakeFiles/dyrone_c.dir/chapter_1/static.c.s
+.PHONY : chapter_1/static.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... chapter_1/helloworld.o"
 	@echo "... chapter_1/helloworld.i"
 	@echo "... chapter_1/helloworld.s"
+	@echo "... chapter_1/static.o"
+	@echo "... chapter_1/static.i"
+	@echo "... chapter_1/static.s"
 .PHONY : help
 
 

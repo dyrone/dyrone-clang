@@ -87,6 +87,9 @@
 		<Unit filename="/Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/helloworld.c">
 			<Option target="dyrone_c"/>
 		</Unit>
+		<Unit filename="/Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/static.c">
+			<Option target="dyrone_c"/>
+		</Unit>
 		<Unit filename="/Users/tenglong.tl/Works/Projects/dyrone_c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

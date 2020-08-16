@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/for.c" "/Users/tenglong.tl/Works/Projects/dyrone_c/cmake-build-debug/CMakeFiles/dyrone_c.dir/chapter_1/for.c.o"
   "/Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/helloworld.c" "/Users/tenglong.tl/Works/Projects/dyrone_c/cmake-build-debug/CMakeFiles/dyrone_c.dir/chapter_1/helloworld.c.o"
+  "/Users/tenglong.tl/Works/Projects/dyrone_c/chapter_1/static.c" "/Users/tenglong.tl/Works/Projects/dyrone_c/cmake-build-debug/CMakeFiles/dyrone_c.dir/chapter_1/static.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
