@@ -3,4 +3,4 @@ project(dyrone_c C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(dyrone_c define.c pointer.c)
+add_executable(dyrone_c define.c pointer.c test.c test1.c)

@@ -4,9 +4,9 @@
 
 #include <stdio.h>
 
-int pointer() {
+__unused int pointer() {
 
-    int x = 1, y = 2, z[10];
+    int x = 1, y, z[10];
     int *ip;
 
     ip = &x;
@@ -26,5 +26,6 @@ int pointer() {
     printf("ip -> %d\n", *ip);
     printf("y -> %d\n", y);
 
+    return 0;
 }
 
